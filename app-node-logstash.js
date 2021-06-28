@@ -2,7 +2,7 @@
 const winston = require('winston');
 
 const logger = require('winston-logstash-transport').createLogger(null, {
-    application: 'BEMIS-SCHOOL',
+    application: 'DESKTOP-XCVDFGH',
     logstash: { 
         host: '192.168.4.42', 
         port: 514 },
