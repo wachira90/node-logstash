@@ -47,3 +47,9 @@ fetch(url, {
     })
     .catch(err => console.log(err));
  ```
+ 
+ ## more info
+ 
+  ```
+ https://www.elastic.co/guide/en/elasticsearch/client/javascript-api/master/get_examples.html
+  ```
