@@ -3,10 +3,8 @@ const fetch = require('node-fetch');
 
 const username = "user1";
 const password = "pass2";
-// const url = "http://172.16.1.10:9200/";
-// const url = "http://172.16.1.10:9200/product/default/2";
 
-const url =  "http://203.159.241.122/";
+const url = "http://172.16.1.10:9200/product/default/2";
 
 fetch(url, {
     headers: {
