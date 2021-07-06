@@ -71,7 +71,7 @@ async function run() {
         id: '1'
     })
 
-    console.log(body.hits[2])
+    console.log(body)
 }
 
 run().catch(console.log)
