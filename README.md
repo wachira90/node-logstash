@@ -19,7 +19,7 @@ const logger = require('winston-logstash-transport').createLogger(null, {
 
 logger.log('info', 'TIME' + Date.now()  );
 // logger.log('error', 'some message err');
-logger.on('finish', () => process.exit());
+// logger.on('finish', () => process.exit());
 logger.end();
 ```
 
